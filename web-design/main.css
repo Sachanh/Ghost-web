@@ -1,0 +1,94 @@
+:root {
+    --blue: #3eb0ef;
+    --green: #a4d037;
+    --purple: #ad26b4;
+    --yellow: #fecd35;
+    --red: #f05230;
+    --darkgrey: #15171a;
+    --midgrey: #738a94;
+    --lightgrey: #c5d2d9;
+    --whitegrey: #e5eff5;
+    --pink: #fa3a57;
+    --brown: #a3821a;
+    --darkmode: #1a1c20;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-wrapper{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--darkmode);
+    color:var(--lightgrey);
+    position: fixed;
+    width: 100%;
+    height: 1.5rem;
+    font-size: small;
+    font-family: 'Oswald', sans-serif;
+}
+.header-wrapper >span{
+    display: flex;
+    align-self: flex-start;
+    padding: 1rem;
+    margin: 0;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkmode);
+    height: 40vh;
+    color:var(--whitegrey);
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero >img{
+    width:250px;
+    height: 70px;
+}
+.blog-1{
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "img1" "article1";
+    gap:5rem;
+    margin:1rem 0 0 1rem;
+}
+.img1 >img{
+    height:300px;
+}
+.img1{
+    grid-area: img1;
+   
+}
+
+.article1{
+    grid-area: article1;
+    
+}
+.blog-post{
+    display: grid;
+    grid-template-areas: 
+    "post name" "post date";
+    grid-template-columns: 40px 200px;
+    column-gap: 5px;
+
+}
+.author-name{
+    grid-area: name;
+}
+.date{
+    grid-area: date;
+    color: #738a94;
+
+}
+.img-post{
+    grid-area:post;
+    border-radius: 50%;
+    height:40px;
+}
