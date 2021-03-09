@@ -1,0 +1,27 @@
+@media only screen and (min-width:750px){
+    .blog-1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:"img1 article1";
+        grid-template-rows: initial; /*--resetting the previous styling*/
+        margin:2rem 5rem;
+        gap: 3rem;
+       
+  
+    }
+    .article1{
+        max-width: 400px;
+    }
+    .section1{
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr;
+      grid-template-areas:"part1 part2 part3";
+      grid-template-rows: initial;
+      margin:0 5rem;
+      gap:2rem;
+
+    }
+        
+  }
+
+  
