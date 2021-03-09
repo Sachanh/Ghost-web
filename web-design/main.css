@@ -179,3 +179,21 @@ body{
 .section1-blog3-article3{
     grid-area: blog3-article3;
 }
+.footer-div{
+    display: flex;
+    /* padding: 1rem; */
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--darkmode);
+    color:var(--lightgrey);
+    width: 100%;
+    /* height: 1.5rem; */
+    font-size: small;
+    font-family: 'Oswald', sans-serif;
+}
+.footer-div >span{
+    display: flex;
+    align-self: flex-end;
+    padding: 1rem;
+    margin: 0;
+}
