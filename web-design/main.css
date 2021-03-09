@@ -62,7 +62,7 @@
 }
 .img1 >img{
     height:300px;
-    width: 400px;
+    width: 375px;
 }
 .img1{
     grid-area: img1;
@@ -72,6 +72,9 @@
 .article1{
     grid-area: article1;
     
+}
+.article1 >span{
+    color:var(--blue)
 }
 .blog-post{
     display: grid;
