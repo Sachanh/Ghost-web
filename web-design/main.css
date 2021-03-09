@@ -20,7 +20,7 @@
     
 }
 body{
-    background-color: var(--darkgrey);
+    background-color: var(--grey);
 }
 
 .header-wrapper{
@@ -63,6 +63,7 @@ body{
     grid-template-areas: "img1" "article1";
     gap:5rem;
     margin:1rem 0 0 1rem;
+    color: var(--lightgrey);
 }
 .img1 >img{
     height:300px;
