@@ -97,3 +97,63 @@
     border-radius: 50%;
     height:40px;
 }
+.section1{
+    display: grid;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-areas: "part1" "part2" "part3";
+    gap:5rem;
+    margin:1rem 0 0 1rem;
+}
+.section1-part1{
+    grid-area: part1;
+    display: grid;
+    grid-template-rows: 300px 200px;
+    grid-template-areas: "blog1-img1" "blog1-article1";
+    gap: 1.5rem;
+    
+}
+.section1-blog1-img1{
+    grid-area: blog1-img1;
+}
+.section1-blog1-img1>img{
+    height:300px;
+    width: 375px;
+}
+.section1-blog1-article1{
+    grid-area: blog1-article1;
+}
+.section1-part2{
+    grid-area: part2;
+    display: grid;
+    grid-template-rows: 300px 200px;
+    grid-template-areas: "blog2-img2" "blog2-article2";
+    gap: 1.5rem;
+}
+.section1-blog2-img2{
+    grid-area: blog2-img2;
+}
+.section1-blog2-img2>img{
+    height:300px;
+    width: 375px;
+}
+.section1-blog2-article2{
+    grid-area: blog2-article2;
+}
+
+.section1-part3{
+    grid-area: part3;
+    display: grid;
+    grid-template-rows: 300px 200px;
+    grid-template-areas: "blog3-img3" "blog3-article3";
+    gap: 1.5rem;
+}
+.section1-blog3-img3{
+    grid-area: blog3-img3;
+}
+.section1-blog3-img3>img{
+    height:300px;
+    width: 375px;
+}
+.section1-blog3-article3{
+    grid-area: blog3-article3;
+}
