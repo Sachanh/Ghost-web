@@ -61,8 +61,8 @@ body{
     display: grid;
     grid-template-rows: 300px 300px;
     grid-template-areas: "img1" "article1";
-    gap:5rem;
-    margin:1rem 0 0 1rem;
+    gap:2rem;
+    margin:1rem 1rem 1rem 1rem;
     color: var(--lightgrey);
 }
 .img1 >img{
@@ -115,8 +115,8 @@ body{
     display: grid;
     grid-template-rows: 600px 600px 600px;
     grid-template-areas: "part1" "part2" "part3";
-    gap:5rem;
-    margin:1rem 0 0 1rem;
+    gap:2rem;
+    margin:1rem 1rem 1rem 1rem;
 }
 .section1-part1{
     grid-area: part1;
