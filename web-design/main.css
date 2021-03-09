@@ -99,7 +99,7 @@
 }
 .section1{
     display: grid;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: 600px 600px 600px;
     grid-template-areas: "part1" "part2" "part3";
     gap:5rem;
     margin:1rem 0 0 1rem;
