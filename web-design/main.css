@@ -61,7 +61,7 @@ body{
     display: grid;
     grid-template-rows: 300px 300px;
     grid-template-areas: "img1" "article1";
-    gap:2rem;
+    /* gap:2rem; */
     margin:1rem 1rem 1rem 1rem;
     color: var(--lightgrey);
 }
@@ -115,7 +115,7 @@ body{
     display: grid;
     grid-template-rows: 600px 600px 600px;
     grid-template-areas: "part1" "part2" "part3";
-    gap:2rem;
+    /* gap:2rem; */
     margin:1rem 1rem 1rem 1rem;
 }
 .section1-part1{
