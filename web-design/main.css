@@ -62,7 +62,7 @@
 }
 .img1 >img{
     height:300px;
-    width: 300px;
+    width: 400px;
 }
 .img1{
     grid-area: img1;
