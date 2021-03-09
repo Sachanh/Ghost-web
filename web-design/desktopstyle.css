@@ -6,11 +6,18 @@
         grid-template-rows: initial; /*--resetting the previous styling*/
         margin:2rem 5rem;
         gap: 3rem;
-       
-  
+        
+       }
+       .img1 >img{
+        height:auto;
+        width: 100%;
+        object-fit: contain;
+        max-width: 450px;
     }
+
     .article1{
         max-width: 400px;
+        border-bottom: 0.10px solid #c5d2d9;
     }
     .section1{
       display: grid;
@@ -21,6 +28,8 @@
       gap:2rem;
 
     }
+    
+        
         
   }
 
