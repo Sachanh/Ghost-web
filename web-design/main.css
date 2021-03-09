@@ -69,7 +69,7 @@ body{
     height:auto;
     width: 100%;
     object-fit: contain;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 
 .img1{
@@ -132,7 +132,7 @@ body{
 .section1-blog1-img1>img{
     height:auto;
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
     object-fit: contain;
 }
 
@@ -153,7 +153,7 @@ body{
     height:auto;
     width: 100%;
     object-fit: contain;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 .section1-blog2-article2{
     grid-area: blog2-article2;
@@ -173,7 +173,7 @@ body{
     height:auto;
     width: 100%;
     object-fit: contain;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 .section1-blog3-article3{
     grid-area: blog3-article3;
